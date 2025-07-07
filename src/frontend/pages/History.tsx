@@ -1,3 +1,9 @@
+import { HistoryTable } from "../components/Table/HistoryTable";
+
 export function History() {
-  return <div>Página de Histórico</div>;
+  return (
+    <div>
+      <HistoryTable />
+    </div>
+  );
 }
